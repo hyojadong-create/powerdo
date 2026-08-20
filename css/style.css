@@ -63,7 +63,9 @@ section{padding:3.5rem 2.5rem;}
 .section-title-jp{font-size:1.4rem;color:#fff;font-weight:700;letter-spacing:2px;margin-bottom:2rem;}
 
 /* TECH GRID */
-.tech-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--border);margin-top:2rem;}
+.tech-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);margin-top:2rem;}
+@media(max-width:1000px){.tech-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:640px){.tech-grid{grid-template-columns:1fr;}}
 .tech-card{background:var(--dark2);padding:1.8rem 1.5rem;position:relative;overflow:hidden;transition:background .2s;}
 .tech-card:hover{background:var(--dark3);}
 .tech-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--cyan);opacity:0;transition:opacity .2s;}
