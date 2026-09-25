@@ -25,7 +25,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(3,5,10,0.97);border-bottom
 .logo-wrap{display:flex;flex-direction:column;}
 .logo{font-family:'Orbitron',sans-serif;font-size:1.3rem;font-weight:900;letter-spacing:4px;color:var(--cyan);text-shadow:0 0 20px rgba(0,229,255,0.4);white-space:nowrap;}
 .logo-sub{font-size:9px;letter-spacing:3px;color:var(--muted);white-space:nowrap;}
-.nav-links{display:flex;gap:2rem;}
+.nav-links{display:flex;gap:1.35rem;}
 .nav-links a{font-size:11px;letter-spacing:2px;color:var(--muted);transition:color .2s;text-transform:uppercase;}
 .nav-links a:hover{color:var(--cyan);}
 .nav-badge{background:rgba(0,229,255,0.08);border:1px solid rgba(0,229,255,0.2);padding:4px 10px;font-size:10px;letter-spacing:2px;color:var(--cyan);}
